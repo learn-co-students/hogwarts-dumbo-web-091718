@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
-import Nav from './Nav'
+import Nav from './Nav';
+import HogListContainer from './HogListContainer';
 import hogs from '../porkers_data';
 console.log(hogs)
 
@@ -9,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
           < Nav />
-
+          <HogListContainer hogs={hogs} />
       </div>
     )
   }
