@@ -1,5 +1,8 @@
 # Hogwarts: The React app for fans of prize-winning pigs
 
+// Tiles container 
+// tiles to render name and picture
+// hog's details
 ## React Week 1 Project
 
 ## Project goals:
