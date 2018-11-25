@@ -21,7 +21,7 @@ export default class PorkContainer extends React.Component {
       )
     })
     return (
-      <div>
+      <div className="ui three column grid">
         <Filter onChange={this.changeHandler} onClick={this.clickHandler} />
         {arrayOfHogs}
       </div>
