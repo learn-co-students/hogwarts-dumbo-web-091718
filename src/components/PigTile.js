@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-// import PigInfo from './PigInfo'
+import React from 'react';
 
 const PigTile = (props) => {
   return (

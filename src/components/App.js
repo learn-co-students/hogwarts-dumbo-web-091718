@@ -17,6 +17,7 @@ class App extends Component {
     }
   }
 
+  // TODO: Refactor
   handleFilter = (e) => {
     e.preventDefault()
 

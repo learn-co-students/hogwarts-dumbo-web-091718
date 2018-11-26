@@ -5,22 +5,12 @@ class PigInfo extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      name: this.props.name, 
-      specialty: this.props.specialty,
-      greased: this.props.greased,
-      weight: this.props.weight,
       clicked: false 
     }
-
-    this.handleClick = this.handleClick.bind(this)
   }
   
-  handleClick = (e) => {
+  handleClick = () => {
     this.setState(prevState => ({ clicked: !prevState.clicked }))
-  }
-
-  handleFilter() {
-
   }
 
   render() {
